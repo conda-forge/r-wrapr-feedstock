@@ -1,11 +1,11 @@
-About r-wrapr
-=============
+About r-wrapr-feedstock
+=======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-wrapr-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/WinVector/wrapr, https://winvector.github.io/wrapr/
 
 Package license: GPL-2.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-wrapr-feedstock/blob/main/LICENSE.txt)
 
 Summary: Tools for writing and debugging R code. Provides: '%.>%' dot-pipe (an 'S3' configurable pipe), unpack/to (R style multiple assignment/return), 'build_frame()'/'draw_frame()' ('data.frame' example tools), 'qc()' (quoting concatenate), ':=' (named map builder), 'let()' (converts non-standard evaluation interfaces to parametric standard evaluation interfaces, inspired by 'gtools::strmacro()' and 'base::bquote()'), and more.
 
