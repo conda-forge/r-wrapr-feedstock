@@ -1,7 +1,6 @@
 {% set version = "2.1.0" %}
 
 {% set posix = 'm2-' if win else '' %}
-{% set native = 'm2w64-' if win else '' %}
 
 package:
   name: r-wrapr
@@ -14,8 +13,7 @@ source:
   sha256: e1cbb0b632c003d11635171317d5b4de1f38582a1908fde8409d474edcc355e4
 
 build:
-  merge_build_host: true  # [win]
-  number: 0
+  number: 1
   noarch: generic
 
   rpaths:
